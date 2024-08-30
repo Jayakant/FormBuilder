@@ -73,7 +73,7 @@ let LightTheme = createTheme({
   },
 
   typography: {
-    fontFamily: "Source Sans Pro",
+    fontFamily: "Arial",
 
     fontSize: 12,
 
@@ -183,7 +183,7 @@ LightTheme = createTheme(LightTheme, {
     MuiTypography: {
       styleOverrides: {
         root: {
-          fontFamily: "Source Sans Pro",
+          fontFamily: "Arial",
           color: "#000000",
           whiteSpace: "pre-wrap",
         },
@@ -233,7 +233,7 @@ LightTheme = createTheme(LightTheme, {
         primary: {
           color: grey[900],
           selected: {
-            backgroundColor: "#2e2e38",
+            backgroundColor: "#010147",
           },
         },
       },

@@ -6,7 +6,7 @@ export const AuthProvider = ({ children }) => {
 
     const admin = "AdminUser"
 
-    const [existingUsers, setExistingUsers] = React.useState([])
+    const [existingUsers, setExistingUsers] = React.useState([{name: "Admin", pw: "Letmein!99"}])
 
     const handleExistingUsers = (array) => {
         setExistingUsers(array)

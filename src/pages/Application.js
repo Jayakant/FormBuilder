@@ -8,25 +8,16 @@ import AppNotification from "../components/common/AppNotification";
 import { TextField, Typography, Grid, Button, Paper, InputAdornment, Tooltip, IconButton, FormControl, InputLabel, MenuItem, Select, OutlinedInput, Box, Chip } from "@mui/material";
 // import { toast } from "react-toastify";
 // import "react-toastify/dist/ReactToastify.css";
-import ModeEditOutlinedIcon from "@mui/icons-material/ModeEditOutlined";
-import DeleteIcon from '@mui/icons-material/Delete';
+
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
-import dayjs from 'dayjs';
 import { MobileTimePicker } from '@mui/x-date-pickers/MobileTimePicker';
 import { MobileDateTimePicker } from '@mui/x-date-pickers/MobileDateTimePicker';
 import FileUploadIcon from '@mui/icons-material/FileUpload';
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import AddBoxIcon from '@mui/icons-material/AddBox';
-import AbcIcon from '@mui/icons-material/Abc';
-import PinIcon from '@mui/icons-material/Pin';
-import ArrowDropDownCircleIcon from '@mui/icons-material/ArrowDropDownCircle';
-import DateRangeIcon from '@mui/icons-material/DateRange';
-import AccessTimeIcon from '@mui/icons-material/AccessTime';
-import PendingActionsIcon from '@mui/icons-material/PendingActions';
-import ContentPasteGoIcon from '@mui/icons-material/ContentPasteGo';
+
 
 export default function Application() {
 

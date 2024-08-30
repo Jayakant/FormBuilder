@@ -1,7 +1,7 @@
 import { createTheme } from "@mui/material/styles";
 import dark_logo from "../images/logo2.png";
 import {
-  yellow,
+  blue,
   // amber,
   orange,
   grey,
@@ -16,7 +16,7 @@ let DarkTheme = createTheme({
 
     primary: {
       // main: "#000",
-      main: yellow[500],
+      main: blue[500],
     },
 
     secondary: {
@@ -29,7 +29,8 @@ let DarkTheme = createTheme({
 
     background: {
       // default: "#2E2E38",
-      default: grey[900],
+      ///////////////// change this
+      default: blue[900],
     },
 
     warn: {
@@ -64,14 +65,14 @@ let DarkTheme = createTheme({
     logo: dark_logo,
 
     backgroundPaperGradient:
-      "linear-gradient(to bottom right,#000000, #4a4949)",
+      "linear-gradient(to bottom right, #000000,#09249c)",
 
-    mainCardColor: "#181818",
+    mainCardColor: "#010c33",
 
-    boxShadow: "0 1px 15px 1px grey",
+    boxShadow: "0 1px 15px 1px white",
 
     // containerComponent: "#1a1a24",
-    containerComponent: "#000000",
+    containerComponent: "#010d40",
 
     // containerComponentShadow: "0 1px 6px 1px #ffeb3b",
 
@@ -79,7 +80,7 @@ let DarkTheme = createTheme({
   },
 
   typography: {
-    fontFamily: "EYInterstate",
+    fontFamily: "Arial",
 
     fontSize: 12,
 
@@ -94,7 +95,7 @@ DarkTheme = createTheme(DarkTheme, {
     MuiSvgIcon: {
       styleOverrides: {
         colorPrimary: {
-          color: yellow[500],
+          color: blue[500],
         },
 
         colorAction: {
@@ -107,10 +108,10 @@ DarkTheme = createTheme(DarkTheme, {
       styleOverrides: {
         row: {
           "&:nth-of-type(odd)": {
-            backgroundColor: "#383838",
+            backgroundColor: "#01163b",
           },
           "&:nth-of-type(even)": {
-            backgroundColor: "#181818",
+            backgroundColor: "#010f3d",
           },
         },
         columnHeader: {
@@ -123,7 +124,7 @@ DarkTheme = createTheme(DarkTheme, {
     MuiTableCell: {
       styleOverrides: {
         head: {
-          backgroundColor: "#383838",
+          backgroundColor: "#01163b",
           color: "white",
         },
       },
@@ -132,7 +133,8 @@ DarkTheme = createTheme(DarkTheme, {
     MuiDialog: {
       styleOverrides: {
         paperFullScreen: {
-          background: "#2E2E38",
+          //2E2E38
+          background: "#FFFFFF",
         },
         paperWidthLg: {
           minWidth: "600px"
@@ -160,7 +162,7 @@ DarkTheme = createTheme(DarkTheme, {
       styleOverrides: {
         root: {
           // backgroundColor: "#2E2E38",
-          backgroundColor: grey[750],
+          backgroundColor: blue[750],
         },
       },
     },
@@ -168,7 +170,7 @@ DarkTheme = createTheme(DarkTheme, {
     MuiDrawer: {
       styleOverrides: {
         paper: {
-          backgroundColor: "#282828",
+          backgroundColor: "#010c47",
         },
       },
     },
@@ -190,7 +192,7 @@ DarkTheme = createTheme(DarkTheme, {
     MuiTypography: {
       styleOverrides: {
         root: {
-          fontFamily: "Source Sans Pro",
+          fontFamily: "Arial",
           color: "#ffffff",
           whiteSpace: "pre-wrap",
         },
@@ -212,7 +214,7 @@ DarkTheme = createTheme(DarkTheme, {
         },
 
         body2: {
-          color: yellow[500],
+          color: blue[500],
 
           "&:hover": {
             color: "#ffffff",
@@ -238,9 +240,9 @@ DarkTheme = createTheme(DarkTheme, {
     MuiListItemText: {
       styleOverrides: {
         primary: {
-          color: yellow[500],
+          color: blue[500],
           selected: {
-            backgroundColor: "#2e2e38",
+            backgroundColor: "#2E2E38",
           },
         },
       },
@@ -249,7 +251,7 @@ DarkTheme = createTheme(DarkTheme, {
     MuiToolbar: {
       styleOverrides: {
         root: {
-          backgroundColor: grey[800],
+          backgroundColor: "#010f42",
           color: "#000",
         },
       },
@@ -260,12 +262,12 @@ DarkTheme = createTheme(DarkTheme, {
         containedPrimary: {
           //used
 
-          backgroundColor: "#fbc02d",
+          backgroundColor: "#3dc0fc",
 
           color: "#000000",
 
           "&:hover": {
-            backgroundColor: "#f57f17",
+            backgroundColor: blue[500],
             color: "#FFFFFF",
           },
         },
@@ -283,8 +285,8 @@ DarkTheme = createTheme(DarkTheme, {
           fontSize: 20,
           boxShadow: "0 1px 3px 1px white",
           "&:hover": {
-            color: yellow[500],
-            boxShadow: "0 1px 15px 1px yellow",
+            color: blue[500],
+            boxShadow: "0 1px 15px 1px blue",
           },
         },
       },
